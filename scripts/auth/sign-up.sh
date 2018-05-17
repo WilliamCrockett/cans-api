@@ -13,3 +13,5 @@ curl "http://localhost:4741/sign-up" \
   }'
 
 echo
+
+# EMAIL=william@sailing.co.za PASSWORD=1
