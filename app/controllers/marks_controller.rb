@@ -16,6 +16,7 @@ class MarksController < OpenReadController
   # POST /marks
   def create
     @mark = Mark.new(mark_params)
+    @mark.name.capitalize!
 
     if @mark.save
       render json: @mark, status: :created, location: @mark
